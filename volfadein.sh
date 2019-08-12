@@ -4,11 +4,11 @@
 sleep 30s
 /volumio/app/plugins/system_controller/volumio_command_line_client/volumio.sh play
 
-x=25
+x=24
 while [ $x -le 100 ]
 do
-sleep 3s
+sleep 5s
 echo "set value x to: $x"
 /volumio/app/plugins/system_controller/volumio_command_line_client/volumio.sh volume +$x
-x=$(( $x + 1 ))
+x=$(( $x + 2 ))
 done
