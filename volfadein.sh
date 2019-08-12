@@ -2,7 +2,7 @@
 # script to use locally, to fade in after startup. use with "crontab -e" : "@reboot /home/volumio/volfadein.sh"
 # don't forget to "sudo chmod +x volfadein.sh" 
 
-x=5
+x=25
 while [ $x -le 100 ]
 do
 sleep 3s
