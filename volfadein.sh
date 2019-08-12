@@ -1,5 +1,5 @@
 #!/bin/bash
-# script to use locally, to fade in after startup. use with crontab -e: @reboot volfadein.sh
+# script to use locally, to fade in after startup. use with "crontab -e" : "@reboot /home/volumio/volfadein.sh"
 # don't forget to "sudo chmod +x volfadein.sh" 
 
 x=0
