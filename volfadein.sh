@@ -2,7 +2,7 @@
 # script to use locally, to autostart+fade in after startup. use with "crontab -e" : "@reboot /home/volumio/volfadein.sh"
 # don't forget to "sudo chmod +x volfadein.sh" 
 sleep 37s
-/volumio/app/plugins/system_controller/volumio_command_line_client/volumio.sh play
+/volumio/app/plugins/system_controller/volumio_command_line_client/volumio.sh next
 
 x=24
 while [ $x -le 100 ]
