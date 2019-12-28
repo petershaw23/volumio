@@ -17,7 +17,7 @@ server = loop.run_until_complete(snapcast.control.create_server(loop, 'localhost
 client = 'b8:27:eb:b2:5f:83' #this is the client ID of the client you want to control
 
 
-for i in range(0, 38): 
+for i in range(1, 38): 
    print(i)
    sleep (4)
    loop.run_until_complete(server.client_volume(client, {'percent': i, 'muted': False}))
