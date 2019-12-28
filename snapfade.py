@@ -18,7 +18,7 @@ client = 'b8:27:eb:b2:5f:83' #this is the client ID of the client you want to co
 
 
 for i in range(1, 38): 
-   print(i)
-   sleep (4)
+   #print(i)
+   sleep (1)
    loop.run_until_complete(server.client_volume(client, {'percent': i, 'muted': False}))
 
