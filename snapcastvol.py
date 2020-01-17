@@ -1,7 +1,7 @@
 import asyncio
 import snapcast.control
 from time import sleep      # Importing the time library to provide the delays in program
-sleep (35)
+sleep (35) #wait until volumio is fully loaded
 loop = asyncio.get_event_loop()
 server = loop.run_until_complete(snapcast.control.create_server(loop, 'localhost')) #snapcast server IP
 
